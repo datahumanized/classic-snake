@@ -13,7 +13,7 @@ The game also tracks and **persists the high score** using file operations.
 ---
 
 ## 🧩 Project Structure
-
+```
 SnakeGame/
 ├── main.py
 ├── snake.py
@@ -24,4 +24,5 @@ SnakeGame/
 ├── config.yaml
 ├── README.md
 └── .venv/        # ignored via .gitignore
+```
 # classic-snake
