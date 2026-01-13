@@ -1,0 +1,50 @@
+---
+
+## 📂 File Responsibilities
+
+### `main.py`
+- Application entry point.
+- Manages the game loop and screen updates.
+- Coordinates interaction between snake, food, and scoreboard objects.
+
+### `snake.py`
+- Implements the `Snake` class.
+- Handles snake movement, growth, and self-collision logic.
+
+### `food.py`
+- Implements the `Food` class.
+- Randomly spawns food on the screen when consumed.
+
+### `scoreboard.py`
+- Implements the `Scoreboard` class.
+- Displays the current score during gameplay.
+- Integrates with file operations to show the stored high score.
+
+### `fileOp.py`
+- Handles all file-related operations.
+- Reads the high score from `data.txt`.
+- Updates the file when a new high score is achieved.
+
+### `data.txt`
+- Stores the high score persistently.
+- Ensures score data is retained across game sessions.
+
+### `.venv/`
+- Python virtual environment (excluded from version control).
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+- Object-Oriented Programming (OOP) using classes
+- Separation of concerns across modules
+- File handling for persistent data storage
+- Game loop and event-driven updates
+- Collision detection and state management
+
+---
+
+## ▶️ How to Run
+
+```bash
+python main.py
